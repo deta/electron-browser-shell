@@ -58,6 +58,7 @@ export class PopupView {
     this.browserWindow = new BrowserWindow({
       show: false,
       frame: false,
+      fullscreenable: false,
       parent: opts.parent,
       movable: false,
       maximizable: false,
